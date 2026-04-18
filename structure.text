@@ -1,0 +1,41 @@
+traffic-digital-twin-bw-by/
+│
+├── README.md
+├── requirements.txt
+├── structure.txt
+├── config/
+│   └── config.yaml
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── ingestion/
+│   ├── bast_loader.py
+│   ├── here_loader.py
+│   ├── osm_loader.py
+│
+├── processing/
+│   ├── cleaning.py
+│   ├── fusion.py
+│
+├── streaming/
+│   ├── producer.py
+│   ├── consumer.py
+│
+├── twin/
+│   ├── state.py
+│   ├── engine.py
+│
+├── analytics/
+│   ├── metrics.py
+│   ├── models.py
+│   └── export_latex.py
+│
+├── visualization/
+│   ├── plots.py
+│
+├── reports/
+│   └── traffic_analysis_BW_BY.tex
+│   └── figures
+│   └── tables

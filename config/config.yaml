@@ -1,0 +1,9 @@
+sources:
+  bast: data/raw/bast.csv
+  here: data/raw/here.csv
+  osm: data/raw/osm.csv
+  dwd: data/raw/dwd.csv
+
+twin:
+  alpha: 0.85
+  update_interval: 5
